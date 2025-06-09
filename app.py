@@ -9,7 +9,10 @@ from PIL import Image
 class_names = ['donut', 'su kem', 'sừng bò', 'tart trứng']
 
 # Load model
-model = load_model('MobileNet_RGB-2506.h5')
+def load_mobilenet_model():
+    return load_model('MobileNet_RGB-2506.h5')
+
+model = load_mobilenet_model()
 
 # Cấu hình đầu vào ảnh
 IMG_SIZE = (150, 150)
