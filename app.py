@@ -158,4 +158,13 @@ with right_col:
 
 # 📎 Footer đẹp
 st.markdown("---")
-st.markdown("<center><sub>Phát triển bởi <strong>Nhóm 14</strong> · Sử dụng Python · TensorFlow · Streamlit</sub></center>", unsafe_allow_html=True)
+st.markdown("""
+    <div style='
+        text-align: center;
+        padding: 20px;
+        font-size: 18px;
+        color: #31333F;
+    '>
+        🚀 Phát triển bởi <strong>Nhóm 14</strong> · Sử dụng Python · TensorFlow · Streamlit
+    </div>
+""", unsafe_allow_html=True)
